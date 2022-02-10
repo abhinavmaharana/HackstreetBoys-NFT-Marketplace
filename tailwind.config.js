@@ -5,7 +5,11 @@ module.exports = {
     './shared/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'main':['Poppins', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
