@@ -26,7 +26,7 @@ export default function Card({ img }: Props) {
         Yellow Painting
       </p>
       <label className="mx-[20px] mb-[20px] grid justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] hover:font-bold ">
-        Place a Bid
+        Buy
       </label>
     </div>
   )
