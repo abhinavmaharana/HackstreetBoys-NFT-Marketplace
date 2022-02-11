@@ -1,15 +1,17 @@
+import Link from 'next/link'
+
 export default function Header() {
   return (
     <header className="top-0 z-50 grid grid-cols-2  py-2 px-5 md:px-10">
-        <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3">
         {/* Left */}
-        <div className="relative flex items-center h-5 cursor-pointer my-auto space-x-6 text-center">
+        <div className="relative my-auto flex h-5 cursor-pointer items-center space-x-6 text-center">
           <h1 className="text-xl">PsychoArt</h1>
         </div>
         {/* Middle - Search */}
-        <div className="flex items-center md:border-2 bg-[#282828] border-[#282828] rounded-lg py-2 md:shadow-sm w-[300px] xl:ml-[-60px] 2xl:ml-[-80px] xl:w-[470px] 2xl:w-[400px] ml-[-30px]">
+        <div className="ml-[-30px] flex w-[300px] items-center rounded-lg border-[#282828] bg-[#282828] py-2 md:border-2 md:shadow-sm xl:ml-[-60px] xl:w-[470px] 2xl:ml-[-80px] 2xl:w-[400px]">
           <input
-            className="flex-grow pl-6 bg-[#282828]  outline-none text-sm text-white placeholder-white"
+            className="flex-grow bg-[#282828] pl-6  text-sm text-white placeholder-white outline-none"
             type="text"
             placeholder={'Start your search'}
           />
@@ -17,16 +19,22 @@ export default function Header() {
       </div>
       {/* Right */}
       <div className="flex items-center justify-end space-x-12  text-white">
-        <h3 className="font-[Roboto] font-normal hover:text-[#A435F0] transition duration-150 ease-in">
-          Collections
-        </h3>
-        <h3 className="font-[Roboto] font-normal hover:text-[#A435F0] transition duration-150 ease-in">
-          Feature
-        </h3>
-        <h3 className="font-[Roboto] font-normal hover:text-[#A435F0] transition duration-150 ease-in">
+        <Link href="#collection">
+          <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
+            Collections
+          </h3>
+        </Link>
+        <Link href="#feature">
+          <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
+            Feature
+          </h3>
+        </Link>
+        <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
           FAQ
         </h3>
-        <button className="bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6 rounded-md">Select Wallet</button>
+        <button className="rounded-md bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6">
+          Select Wallet
+        </button>
       </div>
     </header>
   )
