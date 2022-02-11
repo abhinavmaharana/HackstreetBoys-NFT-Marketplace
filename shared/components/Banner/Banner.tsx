@@ -5,7 +5,7 @@ export default function Banner() {
     <div className="max-w-8xl mx-auto mt-8 items-center px-8 sm:px-16 xl:mt-[150px] xl:ml-[-18px] 2xl:mt-[95px] 2xl:ml-[-30px]">
       <div className="grid grid-cols-1 items-center lg:grid-cols-2">
         <div className="grid grid-rows-3 gap-y-8">
-          <h1 className="text-7xl font-bold">
+          <h1 className="text-6xl font-bold">
             Create, Sell & Collect Your Own Creative NFT
           </h1>
           <p className="text-2xl">

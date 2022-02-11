@@ -19,15 +19,15 @@ export default function Home() {
         <section className="mt-4">
           <Header />
         </section>
-        <section className="mt-4">
+        <section className="mt-4 grid grid-cols-2">
           <Banner />
+          <SassyNinja />
         </section>
-        <Collection />
+        {/* <Collection />
         <FeaturedArtwork />
         <TopCreator />
         <Faq />
-        <CollectNFT />
-        {/* <SassyNinja /> */}
+        <CollectNFT /> */}
       </main>
     </div>
   )
