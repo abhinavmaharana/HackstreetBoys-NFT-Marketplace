@@ -9,7 +9,7 @@ import CollectNFT from '../shared/components/collectNFT'
 
 export default function Home() {
   return (
-    <div className="scrollbar-track-[#101010] h-[100vh] scrollbar-thin scrollbar-thumb-gray-700">
+    <div className="scrollbar-track-[#101010] scrollbar-thumb-rounded-xl h-[100vh] scrollbar-thin scrollbar-thumb-gray-800 ">
       <Head>
         <title>PsychoArt</title>
         <link rel="icon" href="/favicon.ico" />
