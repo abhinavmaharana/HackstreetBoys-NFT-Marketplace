@@ -6,7 +6,7 @@ export default function Collection() {
       <p className="mb-[4vh] text-xl text-[#FFFFFF80]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <div className="grid grid-cols-4 gap-7">
+      <div className="grid grid-cols-4 gap-10">
         <Card img="/1.png" />
         <Card img="/2.png" />
         <Card img="/3.svg" />
