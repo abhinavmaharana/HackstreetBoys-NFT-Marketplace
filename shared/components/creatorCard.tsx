@@ -11,11 +11,11 @@ export default function CreatorCard({ img, profile }: Props) {
   return (
     <div className=" w-[300px] rounded-[10px] bg-[#ffffff10]  hover:bg-[#ffffff15] hover:shadow-2xl hover:shadow-[#603b79]">
       <div className="rounded-[20px]">
-        <img src={img} className=" z-0 h-[200px] w-[300px] object-cover  " />
+        <img src={img} className=" z-0 h-[200px] w-[300px] object-cover " />
       </div>
       <img
         src={profile}
-        className="z-999 grid h-[50px] justify-items-center rounded-full"
+        className="z-999 grid h-[50px] justify-items-center rounded-full xl:ml-[124px] xl:mt-[-25px]"
       ></img>
 
       <p className=" mb-[10px] grid content-center justify-items-center text-2xl font-bold">

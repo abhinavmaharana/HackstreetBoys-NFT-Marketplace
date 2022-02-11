@@ -8,7 +8,7 @@ export default function Card({ img }: Props) {
       <div className="rounded-[20px]">
         <img
           src={img}
-          className="h-[300px] w-[300px] object-cover px-[20px] pt-[20px] align-middle "
+          className="h-[300px] w-[300px] object-cover px-[20px] pt-[20px] align-middle"
         />
       </div>
 
