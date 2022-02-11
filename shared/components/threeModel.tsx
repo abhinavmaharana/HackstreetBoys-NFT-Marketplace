@@ -18,7 +18,7 @@ const Model = () => {
 
 export default function SassyNinja() {
   return (
-    <div className="h-[80vh] ">
+    <div className="h-[110vh] ">
       <Canvas
         shadows
         dpr={[1, 2]}
