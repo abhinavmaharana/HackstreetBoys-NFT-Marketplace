@@ -10,7 +10,7 @@ import SassyNinja from '../shared/components/threeModel'
 
 export default function Home() {
   return (
-    <div className="scrollbar-track-[#101010] scrollbar-thumb-rounded-xl h-[100vh] scrollbar-thin scrollbar-thumb-gray-800 ">
+    <div className=" ">
       <Head>
         <title>PsychoArt</title>
         <link rel="icon" href="/favicon.ico" />
@@ -19,15 +19,14 @@ export default function Home() {
         <section className="mt-4">
           <Header />
         </section>
-        <section className="mt-4 grid grid-cols-2">
+        <section className="mt-4">
           <Banner />
-          <SassyNinja />
         </section>
-        {/* <Collection />
+        <Collection />
         <FeaturedArtwork />
         <TopCreator />
         <Faq />
-        <CollectNFT /> */}
+        <CollectNFT />
       </main>
     </div>
   )
