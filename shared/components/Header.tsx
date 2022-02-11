@@ -26,7 +26,7 @@ export default function Header() {
         <h3 className="font-[Roboto] font-normal hover:text-[#A435F0] transition duration-150 ease-in">
           FAQ
         </h3>
-        <button className="bg-[#A435F0] py-3 px-6 rounded-md">Select Wallet</button>
+        <button className="bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6 rounded-md">Select Wallet</button>
       </div>
     </header>
   )
