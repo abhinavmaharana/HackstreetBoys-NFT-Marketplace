@@ -7,6 +7,7 @@ import Banner from '../shared/components/Banner/Banner'
 import Faq from '../shared/components/faq'
 import CollectNFT from '../shared/components/collectNFT'
 import SassyNinja from '../shared/components/threeModel'
+import Footer from '../shared/components/Footer'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <TopCreator />
         <Faq />
         <CollectNFT />
+        <Footer />
       </main>
     </div>
   )
