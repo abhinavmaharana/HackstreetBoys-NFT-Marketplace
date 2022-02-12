@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <div className="grid grid-rows-1 gap-x-48 px-24 py-14 md:grid-cols-4">
@@ -16,14 +18,16 @@ export default function Footer() {
       </div>
       <div className="space-y-4 text-xs text-white">
         <h5 className="font-bold">Company</h5>
-        <p>Our Team</p>
+        <Link href="#ourTeam">
+          <p>Our Team</p>
+        </Link>
         <p>Partner With Us</p>
         <p>Privacy & Policy</p>
         <p>Features</p>
       </div>
       <div className="space-y-4 text-xs text-white">
         <h5 className="font-bold">Contact</h5>
-        <p>+91 887567645</p>
+        <p>+91 82788 36486</p>
         <p>Newsroom</p>
         <p>support@gmail.com</p>
       </div>

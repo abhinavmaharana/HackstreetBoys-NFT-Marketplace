@@ -4,10 +4,10 @@ export default function Collection() {
     <section id="collection">
       <div className="mt-[5vh]  grid justify-items-center">
         <p className="mb-[1vh] text-5xl font-bold">Collection</p>
-        <p className="mb-[4vh] text-xl text-[#FFFFFF80]">
+        <p className="mb-[4vh] text-center text-xl text-[#FFFFFF80]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <div className="grid grid-cols-4 gap-10">
+        <div className="2xl:gap-30 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4">
           <Card
             img="/1.jpeg"
             price={'1 ETH'}

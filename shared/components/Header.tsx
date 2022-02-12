@@ -45,7 +45,10 @@ export default function Header() {
           </Link>
         </div>
         {/* Middle - Search */}
-        <div className="ml-[-30px] flex w-[300px] items-center rounded-lg border-[#282828] bg-[#282828] py-2 md:border-2 md:shadow-sm xl:ml-[-60px] xl:w-[470px] 2xl:ml-[-80px] 2xl:w-[400px]">
+        <div
+          className="ml-[-30px] 
+         hidden w-[300px] items-center rounded-lg border-[#282828] bg-[#282828] py-2 md:border-2 md:shadow-sm xl:ml-[5px] xl:block xl:w-[400px] 2xl:ml-[-80px] 2xl:w-[400px]"
+        >
           <input
             className="flex-grow bg-[#282828] pl-6  text-sm text-white placeholder-white outline-none"
             type="text"
@@ -56,17 +59,17 @@ export default function Header() {
       {/* Right */}
       <div className="flex items-center justify-end space-x-12  text-white">
         <Link href="/collections/0xEfa2Eb9FFc3c8DBf967373415D608f7fB41A129f">
-          <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
+          <h3 className="hidden cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0] lg:block">
             Collections
           </h3>
         </Link>
         <Link href="#feature">
-          <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
+          <h3 className="hidden cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0] lg:block">
             Feature
           </h3>
         </Link>
         <Link href="#faq">
-          <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
+          <h3 className="hidden cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0] lg:block">
             FAQ
           </h3>
         </Link>
@@ -77,10 +80,10 @@ export default function Header() {
           </h3>
         ) : (
           <button
-            className="rounded-md bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6"
+            className="flex rounded-md bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6"
             onClick={() => connectWallet('injected')}
           >
-            Select Wallet
+            Connect MetaMask
           </button>
         )}
       </div>
