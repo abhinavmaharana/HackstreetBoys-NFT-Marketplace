@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 interface Props {
   img: string
 }
@@ -25,9 +27,11 @@ export default function Card({ img }: Props) {
       <p className="mx-[20px] mt-[8px] mb-[20px] content-center justify-items-center text-xl font-bold">
         Yellow Painting
       </p>
-      <label className="mx-[20px] mb-[20px] grid justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] hover:font-bold ">
-        Buy
-      </label>
+      <Link href="/collections/0xEfa2Eb9FFc3c8DBf967373415D608f7fB41A129f">
+        <label className="mx-[20px] mb-[20px] grid cursor-pointer justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] hover:font-bold ">
+          Buy
+        </label>
+      </Link>
     </div>
   )
 }

@@ -4,9 +4,10 @@ interface Props {
   img: string
   profile: string
   name: string
+  tagline: string
 }
 
-export default function CreatorCard({ img, profile, name }: Props) {
+export default function CreatorCard({ img, profile, name, tagline }: Props) {
   const [isFollow, setFollow] = useState(false)
 
   return (
@@ -22,8 +23,8 @@ export default function CreatorCard({ img, profile, name }: Props) {
       <p className=" mb-[10px] grid content-center justify-items-center text-2xl font-bold">
         {name}
       </p>
-      <p className="text-md mb-[25px] grid justify-items-center text-center text-[#FFFFFF80]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <p className="text-md mb-[25px] grid h-[40px] justify-items-center text-center text-[#FFFFFF80]">
+        {tagline}
       </p>
       <div
         onClick={() => {
