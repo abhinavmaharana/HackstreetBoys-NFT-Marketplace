@@ -3,16 +3,13 @@ import SassyNinja from '../threeModel'
 
 export default function Banner() {
   return (
-    <div className="max-w-8xl mx-auto mt-8 px-8 sm:px-16 xl:mt-[150px] xl:ml-[-18px] 2xl:mt-[95px] 2xl:ml-[-30px] grid grid-cols-2 items-center">
+    <div className="max-w-8xl mx-auto mt-8 grid grid-cols-2 items-center px-8 sm:px-16 xl:mt-[150px] xl:ml-[-18px] 2xl:mt-[95px] 2xl:ml-[-30px]">
       <div className="grid grid-cols-1 items-center lg:grid-cols-2 xl:w-[1000px] 2xl:w-[1000px] ">
         <div className="grid grid-rows-3 xl:gap-y-[55px] 2xl:gap-y-[60px]">
           <h1 className="text-6xl font-bold">
             Create, Sell & Collect Your Own Creative NFT
           </h1>
-          <p className="text-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit.
-          </p>
+          <p className="text-2xl">Dive into the world of NFTs.</p>
           <div className="space-x-4 xl:mt-[-140px]">
             <Link href="#collection">
               <button className="h-[60px] w-[200px] rounded-lg bg-gradient-to-b from-[#B75CFF] to-[#671AE4] text-white shadow-md hover:font-bold">

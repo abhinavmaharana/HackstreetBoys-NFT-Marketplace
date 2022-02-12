@@ -38,7 +38,9 @@ export default function Header() {
       <div className="grid grid-cols-3">
         {/* Left */}
         <div className="relative my-auto flex h-5 cursor-pointer items-center space-x-6 text-center">
-          <h1 className="text-xl">PsychoArt</h1>
+          <h1 className="text-2xl font-bold">
+            Psycho<span className="text-[#9a0df8]">Art</span>
+          </h1>
         </div>
         {/* Middle - Search */}
         <div className="ml-[-30px] flex w-[300px] items-center rounded-lg border-[#282828] bg-[#282828] py-2 md:border-2 md:shadow-sm xl:ml-[-60px] xl:w-[470px] 2xl:ml-[-80px] 2xl:w-[400px]">
@@ -69,8 +71,11 @@ export default function Header() {
           <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
             Hello Anonymous
           </h3>
-        ): (
-          <button className="rounded-md bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6" onClick={() => connectWallet('injected')}>
+        ) : (
+          <button
+            className="rounded-md bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-3 px-6"
+            onClick={() => connectWallet('injected')}
+          >
             Select Wallet
           </button>
         )}
