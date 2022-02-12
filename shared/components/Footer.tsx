@@ -1,9 +1,11 @@
 export default function Footer() {
   return (
-    <div className="grid grid-rows-1 md:grid-cols-4 px-24 py-14 gap-x-48">
+    <div className="grid grid-rows-1 gap-x-48 px-24 py-14 md:grid-cols-4">
       <div className="space-y-4 text-2xl text-white">
-        <h5 className="font-bold">Psycho Art</h5>
-        <p>Made the Website with love</p>
+        <h1 className="text-2xl font-bold">
+          Psycho<span className="text-[#9a0df8]">Art</span>
+        </h1>
+        <p className="text-sm">Made the Website with love</p>
       </div>
       <div className="space-y-4 text-xs text-white">
         <h5 className="font-bold">About</h5>
