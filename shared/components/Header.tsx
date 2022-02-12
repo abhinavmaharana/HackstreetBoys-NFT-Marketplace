@@ -7,7 +7,7 @@ import toast, { Toaster } from 'react-hot-toast'
 export default function Header() {
   const { address, connectWallet } = useWeb3()
 
-  const welcomeUser = (userName, toastHandler = toast) => {
+  const welcomeUser = (userName: string, toastHandler = toast) => {
     toastHandler.success(
       `Welcome back${userName !== 'Unnamed' ? ` ${userName}` : ''}!`,
       {
@@ -65,9 +65,11 @@ export default function Header() {
             Feature
           </h3>
         </Link>
-        <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
-          FAQ
-        </h3>
+        <Link href="#faq">
+          <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
+            FAQ
+          </h3>
+        </Link>
         <Toaster position="top-center" reverseOrder={false} />
         {address ? (
           <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
