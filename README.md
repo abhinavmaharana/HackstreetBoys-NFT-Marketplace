@@ -1,3 +1,22 @@
+Psycho Art NFT MarketPlace
+============
+
+This is a NFT Marketplace made for artists where they can come and create, sell and buy NFTs.
+
+
+---
+
+## Features
+- Create NFT
+- Sell NFT
+- Buy NFT
+- Metamask based transaction
+- Python script for NFT generation
+
+---
+
+This project is licensed under the terms of the **MIT** license.
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
