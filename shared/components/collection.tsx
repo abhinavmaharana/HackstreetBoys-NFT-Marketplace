@@ -8,18 +8,78 @@ export default function Collection() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <div className="grid grid-cols-4 gap-10">
-          <Card img="/1.png" />
-          <Card img="/2.png" />
-          <Card img="/3.svg" />
-          <Card img="4.jpeg" />
-          <Card img="5.svg" />
-          <Card img="6.png" />
-          <Card img="7.png" />
-          <Card img="9.png" />
-          <Card img="10.png" />
-          <Card img="11.png" />
-          <Card img="12.png" />
-          <Card img="13.png" />
+          <Card
+            img="/1.png"
+            price={'1 ETH'}
+            name={'Si-fi 420'}
+            creator={'Pratham'}
+          />
+          <Card
+            img="/2.png"
+            price={'100 ETH'}
+            name={'Dead AF'}
+            creator={'Karan'}
+          />
+          <Card
+            img="/3.svg"
+            price={'0.001 ETH'}
+            name={'Collection 69'}
+            creator={'Abhinav'}
+          />
+          <Card
+            img="4.jpeg"
+            price={'102 ETH'}
+            name={'Killer '}
+            creator={'Farahan'}
+          />
+          <Card
+            img="5.svg"
+            price={'1 ETH'}
+            name={'Lil Girl'}
+            creator={'Karan'}
+          />
+          <Card
+            img="6.png"
+            price={'10 ETH'}
+            name={'Red Room'}
+            creator={'Abhinav'}
+          />
+          <Card
+            img="7.png"
+            price={'0.023 ETH'}
+            name={'Upside Down'}
+            creator={'Farahan'}
+          />
+          <Card
+            img="9.png"
+            price={'4.2 ETH'}
+            name={'Sexy Rihno'}
+            creator={'Karan'}
+          />
+          <Card
+            img="10.png"
+            price={'0.001 ETH'}
+            name={'Looping Dead'}
+            creator={'Farahan'}
+          />
+          <Card
+            img="11.png"
+            price={'0.0125 ETH'}
+            name={'Jungle Ghost'}
+            creator={'Farahan'}
+          />
+          <Card
+            img="12.png"
+            price={'3 ETH'}
+            name={'Cracy Dead'}
+            creator={'Farahan'}
+          />
+          <Card
+            img="13.png"
+            price={'5 ETH'}
+            name={'Balls It is'}
+            creator={'Pratham'}
+          />
         </div>
       </div>
     </section>

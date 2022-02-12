@@ -8,9 +8,24 @@ export default function FeaturedArtwork() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
       <div className="grid grid-cols-3 gap-7">
-        <Card img="/1.png" />
-        <Card img="/2.png" />
-        <Card img="/3.svg" />
+        <Card
+          img="/1.png"
+          price={'100 ETH'}
+          name={'Sassy Ninja'}
+          creator={'Farahan'}
+        />
+        <Card
+          img="/2.png"
+          price={'1 ETH'}
+          name={'Crazy Robot'}
+          creator={'Pratham'}
+        />
+        <Card
+          img="/3.svg"
+          price={'0.0001 ETH'}
+          name={'Tasty Egg'}
+          creator={'Karan'}
+        />
       </div>
     </div>
   )
