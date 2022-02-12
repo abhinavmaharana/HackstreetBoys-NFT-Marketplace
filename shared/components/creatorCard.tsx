@@ -3,9 +3,10 @@ import { useState } from 'react'
 interface Props {
   img: string
   profile: string
+  name: string
 }
 
-export default function CreatorCard({ img, profile }: Props) {
+export default function CreatorCard({ img, profile, name }: Props) {
   const [isFollow, setFollow] = useState(false)
 
   return (
@@ -15,11 +16,11 @@ export default function CreatorCard({ img, profile }: Props) {
       </div>
       <img
         src={profile}
-        className="z-999 grid h-[50px] justify-items-center rounded-full xl:ml-[124px] xl:mt-[-25px]"
+        className="z-999 grid h-[50px] w-[50px] justify-items-center rounded-full xl:ml-[124px] xl:mt-[-25px]"
       ></img>
 
       <p className=" mb-[10px] grid content-center justify-items-center text-2xl font-bold">
-        Pratham
+        {name}
       </p>
       <p className="text-md mb-[25px] grid justify-items-center text-center text-[#FFFFFF80]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -7,9 +7,17 @@ export default function TopCreator() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
       <div className="grid grid-cols-3 gap-7">
-        <CreatorCard img="/creator3.svg" profile="/profile.jpg" />
-        <CreatorCard img="/creator2.svg" profile="/profile.jpg" />
-        <CreatorCard img="/creator3.svg" profile="/profile.jpg" />
+        <CreatorCard
+          img="/creator3.svg"
+          profile="/profile.jpg"
+          name="Pratham"
+        />
+        <CreatorCard
+          img="/creator2.svg"
+          profile="/morty1.png "
+          name="Abhinav"
+        />
+        <CreatorCard img="/creator3.svg" profile="/morty.jpeg" name="Karan" />
       </div>
     </div>
   )
