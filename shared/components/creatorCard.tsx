@@ -32,11 +32,11 @@ export default function CreatorCard({ img, profile, name, tagline }: Props) {
         }}
       >
         {isFollow ? (
-          <label className="mx-[20px] mb-[20px] grid justify-items-center rounded-[15px] bg-[#d3cccc80] py-[10px] font-bold   ">
+          <label className="cusrsor-pointer mx-[20px] mb-[20px] grid justify-items-center rounded-[15px] bg-[#d3cccc80] py-[10px]  font-bold ">
             + Followed
           </label>
         ) : (
-          <label className="mx-[20px] mb-[20px] grid justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] font-bold  ">
+          <label className="mx-[20px] mb-[20px] grid cursor-pointer justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] font-bold ">
             + Follow
           </label>
         )}

@@ -29,7 +29,7 @@ export default function AboutUs() {
               onClick={() => {
                 setView(!view)
               }}
-              className="mb-[20px] mt-[2vh] grid w-[250px] justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] hover:font-bold "
+              className="mb-[20px] mt-[2vh] grid w-[250px] cursor-pointer justify-items-center rounded-[15px] bg-gradient-to-b from-[#B75CFF] to-[#671AE4] py-[10px] hover:font-bold "
             >
               See More
             </label>
