@@ -10,7 +10,7 @@ import Footer from '../shared/components/Footer'
 
 export default function Home() {
   return (
-    <div className="h-[100vh] scrollbar-thin scrollbar-track-gray-900 scrollbar-thumb-purple-400">
+    <div className="h-[100vh] scrollbar-thin scrollbar-track-gray-900 scrollbar-thumb-purple-400  ">
       <Head>
         <title>PsychoArt</title>
         <link rel="icon" href="/favicon.ico" />

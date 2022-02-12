@@ -15,28 +15,20 @@ export default function Faqtile({ question, answer }: Props) {
       }}
     >
       {faq ? (
-        <label
-          className="flex w-[500px] rounded-[10px]
-      
-      bg-gradient-to-r from-[#3b363680] via-[#b4afaf80] 
-      to-[#3b363680] hover:shadow-2xl hover:shadow-[#603b79]"
-        >
-          <p className="m-auto grid w-fit   px-[20px] py-[15px] text-3xl">
-            {question}
-          </p>
-        </label>
+        <div>
+          <label className="flex w-[500px] rounded-[10px] text-left text-[#ffffff50] hover:font-bold hover:text-[#ffffff]">
+            <p className=" grid  py-[15px] text-left text-2xl  ">{question}</p>
+            <br />
+          </label>
+          <hr className="w-[500px]" />
+        </div>
       ) : (
-        <label
-          className="flex w-[500px]
-      
-      rounded-[10px]  bg-gradient-to-r from-[#671AE4]
-      via-[#B75CFF] to-[#671AE4] 
-      hover:shadow-2xl hover:shadow-[#603b79]"
-        >
-          <p className=" m-auto grid w-fit   px-[20px] py-[15px] text-3xl">
-            {answer}
-          </p>
-        </label>
+        <div>
+          <label className="flex w-[500px] rounded-[10px] ">
+            <p className="  grid  py-[15px] text-2xl">{answer}</p>
+          </label>
+          <hr className="w-[500px]" />
+        </div>
       )}
     </div>
   )
