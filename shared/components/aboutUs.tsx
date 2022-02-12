@@ -34,7 +34,7 @@ export default function AboutUs() {
               See More
             </label>
             {view ? (
-              <div className="gap-15 mt-[7vh] grid grid-cols-2">
+              <div className="mt-[7vh] grid grid-cols-2 gap-10">
                 <img src="/binance.svg"></img>
                 <img src="/Ethereum.svg"></img>
                 <img

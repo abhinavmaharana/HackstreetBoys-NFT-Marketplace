@@ -8,7 +8,7 @@ export default function TopCreator() {
       </p>
       <div className="grid grid-cols-4 gap-7">
         <CreatorCard
-          img="/creator3.jpef"
+          img="/creator3.jpeg"
           profile="/rick.png"
           name="Pratham"
           tagline="You are the artist of your own life.Don’t hand the paintbrush to anyone else."
