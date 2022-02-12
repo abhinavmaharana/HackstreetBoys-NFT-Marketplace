@@ -69,7 +69,7 @@ export default function Nft() {
   }, [marketPlaceModule])
   
   return (
-    <div>
+    <div className='max-w-8xl mx-auto  px-8 sm:px-16'>
       <Header />
       <div className={style.wrapper}>
         <div className={style.container}>
