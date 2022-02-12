@@ -13,7 +13,7 @@ export default function AboutUs() {
         <div className=" grid grid-cols-2 gap-10">
           <div className="grid justify-items-center">
             <img
-              src="/aboutus.jpg"
+              src="/aboutus.jpeg"
               className=" h-[600px]  rounded-[25px] "
             ></img>
           </div>

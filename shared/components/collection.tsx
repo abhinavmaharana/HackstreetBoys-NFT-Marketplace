@@ -39,43 +39,43 @@ export default function Collection() {
             creator={'Karan'}
           />
           <Card
-            img="6.png"
+            img="6.jpeg"
             price={'10 ETH'}
             name={'Red Room'}
             creator={'Abhinav'}
           />
           <Card
-            img="7.png"
+            img="7.jpeg"
             price={'0.023 ETH'}
             name={'Upside Down'}
             creator={'Farahan'}
           />
           <Card
-            img="9.png"
+            img="9.jpeg"
             price={'4.2 ETH'}
             name={'Sexy Rihno'}
             creator={'Karan'}
           />
           <Card
-            img="10.png"
+            img="10.jpeg"
             price={'0.001 ETH'}
             name={'Looping Dead'}
             creator={'Farahan'}
           />
           <Card
-            img="11.png"
+            img="11.jpeg"
             price={'0.0125 ETH'}
             name={'Jungle Ghost'}
             creator={'Farahan'}
           />
           <Card
-            img="12.png"
+            img="12.jpeg"
             price={'3 ETH'}
             name={'Cracy Dead'}
             creator={'Farahan'}
           />
           <Card
-            img="13.png"
+            img="13.jpeg"
             price={'5 ETH'}
             name={'Balls It is'}
             creator={'Pratham'}

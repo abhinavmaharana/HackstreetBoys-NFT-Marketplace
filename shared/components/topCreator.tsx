@@ -8,7 +8,7 @@ export default function TopCreator() {
       </p>
       <div className="grid grid-cols-4 gap-7">
         <CreatorCard
-          img="/creator3.svg"
+          img="/creator3.jpef"
           profile="/rick.png"
           name="Pratham"
           tagline="You are the artist of your own life.Don’t hand the paintbrush to anyone else."
@@ -20,13 +20,13 @@ export default function TopCreator() {
           tagline="Curiosity is the best motivation."
         />
         <CreatorCard
-          img="/creator2.svg"
+          img="/creator2.jpeg"
           profile="/jerry.png "
           name="Abhinav"
           tagline="Believe you can and you're halfway there."
         />
         <CreatorCard
-          img="/bg2.jpeg"
+          img="/creator1.jpeg"
           profile="/summer1.png"
           name="Karan"
           tagline="Creativity doesn't wait for that perfect moment"
