@@ -9,13 +9,13 @@ export default function Collection() {
         </p>
         <div className="grid grid-cols-4 gap-10">
           <Card
-            img="/1.png"
+            img="/1.jpeg"
             price={'1 ETH'}
             name={'Si-fi 420'}
             creator={'Pratham'}
           />
           <Card
-            img="/2.png"
+            img="/2.jpeg"
             price={'100 ETH'}
             name={'Dead AF'}
             creator={'Karan'}

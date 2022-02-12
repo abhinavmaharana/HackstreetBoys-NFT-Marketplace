@@ -9,19 +9,19 @@ export default function FeaturedArtwork() {
       </p>
       <div className="grid grid-cols-3 gap-7">
         <Card
-          img="/1.png"
+          img="/1.jpeg"
           price={'100 ETH'}
           name={'Sassy Ninja'}
           creator={'Farahan'}
         />
         <Card
-          img="/2.png"
+          img="/2.jpeg"
           price={'1 ETH'}
           name={'Crazy Robot'}
           creator={'Pratham'}
         />
         <Card
-          img="/3.svg"
+          img="/4.jpeg"
           price={'0.0001 ETH'}
           name={'Tasty Egg'}
           creator={'Karan'}
