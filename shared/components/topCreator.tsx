@@ -6,18 +6,31 @@ export default function TopCreator() {
       <p className="mb-[4vh] text-xl text-[#FFFFFF80]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <div className="grid grid-cols-3 gap-7">
+      <div className="grid grid-cols-4 gap-7">
         <CreatorCard
           img="/creator3.svg"
-          profile="/profile.jpg"
+          profile="/rick.png"
           name="Pratham"
+          tagline="You are the artist of your own life.Don’t hand the paintbrush to anyone else."
+        />
+        <CreatorCard
+          img="/bg1.jpg"
+          profile="/morty.png"
+          name="Farhan"
+          tagline="Curiosity is the best motivation."
         />
         <CreatorCard
           img="/creator2.svg"
-          profile="/morty1.png "
+          profile="/jerry.png "
           name="Abhinav"
+          tagline="Believe you can and you're halfway there."
         />
-        <CreatorCard img="/creator3.svg" profile="/morty.jpeg" name="Karan" />
+        <CreatorCard
+          img="/bg2.jpeg"
+          profile="/summer1.png"
+          name="Karan"
+          tagline="Creativity doesn't wait for that perfect moment"
+        />
       </div>
     </div>
   )

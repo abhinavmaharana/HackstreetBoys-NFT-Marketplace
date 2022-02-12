@@ -7,6 +7,7 @@ import Banner from '../shared/components/Banner/Banner'
 import Faq from '../shared/components/faq'
 import CollectNFT from '../shared/components/collectNFT'
 import Footer from '../shared/components/Footer'
+import AboutUs from '../shared/components/aboutUs'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <section className="mt-4">
           <Banner />
         </section>
+        <AboutUs />
         <Collection />
         <FeaturedArtwork />
         <TopCreator />
