@@ -10,8 +10,8 @@ export default function Banner() {
             Create, Sell & Collect Your Own Creative NFT
           </h1>
           <p className="text-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit.
+          We are one stop where you can create, mint and sell your own NFTs. We
+          promote artists so that they can get real value of their art.
           </p>
           <div className="space-x-4 xl:mt-[-140px]">
             <Link href="#collection">
