@@ -13,7 +13,7 @@
     This is a NFT Marketplace made for artists where they can come and create, sell and buy NFTs.
     <br />
     <br />
-    <a href="hhttps://github.com/abhinavmaharana/HackstreetBoys-NFT-Marketplace">View Demo</a>
+    <a href="https://psychoart-nftmarketplace.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/abhinavmaharana/HackstreetBoys-NFT-Marketplace/issues">Report Bug</a>
     ·
