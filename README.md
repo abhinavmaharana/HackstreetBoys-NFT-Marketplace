@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public\redme_assets\PsychoArt.png" alt="Logo" width="460" height="80">
   </a>
 
   <h3 align="center">Psycho Art NFT MarketPlace</h3>
