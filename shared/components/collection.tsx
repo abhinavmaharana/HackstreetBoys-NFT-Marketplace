@@ -30,7 +30,7 @@ export default function Collection() {
             img="4.jpeg"
             price={'102 ETH'}
             name={'Killer '}
-            creator={'Farahan'}
+            creator={'Farhan'}
           />
           <Card
             img="5.svg"
@@ -48,7 +48,7 @@ export default function Collection() {
             img="7.jpeg"
             price={'0.023 ETH'}
             name={'Upside Down'}
-            creator={'Farahan'}
+            creator={'Farhan'}
           />
           <Card
             img="9.jpeg"
@@ -60,19 +60,19 @@ export default function Collection() {
             img="10.jpeg"
             price={'0.001 ETH'}
             name={'Looping Dead'}
-            creator={'Farahan'}
+            creator={'Farhan'}
           />
           <Card
             img="11.jpeg"
             price={'0.0125 ETH'}
             name={'Jungle Ghost'}
-            creator={'Farahan'}
+            creator={'Farhan'}
           />
           <Card
             img="12.jpeg"
             price={'3 ETH'}
             name={'Cracy Dead'}
-            creator={'Farahan'}
+            creator={'Farhan'}
           />
           <Card
             img="13.jpeg"

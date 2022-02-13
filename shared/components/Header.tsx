@@ -1,15 +1,17 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useWeb3 } from '@3rdweb/hooks'
 import { client } from '../../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
+import { resourceLimits } from 'worker_threads'
 
 export default function Header() {
   const { address, connectWallet } = useWeb3()
+  const [name, setName] = useState('')
 
   const welcomeUser = (userName: string, toastHandler = toast) => {
     toastHandler.success(
-      `Welcome back${userName !== 'Unnamed' ? ` ${userName}` : ''}!`,
+      `Welcome ${userName !== 'Unnamed' ? ` ${userName}` : ''}!`,
       {
         style: {
           background: '#04111d',
@@ -31,6 +33,7 @@ export default function Header() {
 
       const result = await client.createIfNotExists(userDoc)
       welcomeUser(result.userName)
+      setName(result.userName)
     })()
   }, [address])
   return (
@@ -76,7 +79,7 @@ export default function Header() {
         <Toaster position="top-center" reverseOrder={false} />
         {address ? (
           <h3 className="cursor-pointer font-[Roboto] font-normal transition duration-150 ease-in hover:text-[#A435F0]">
-            Hello Anonymous
+            Hello {name}
           </h3>
         ) : (
           <button

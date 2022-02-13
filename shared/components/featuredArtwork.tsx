@@ -14,7 +14,7 @@ export default function FeaturedArtwork() {
           img="/1.jpeg"
           price={'100 ETH'}
           name={'Sassy Ninja'}
-          creator={'Farahan'}
+          creator={'Farhan'}
         />
         <Card
           img="/2.jpeg"
