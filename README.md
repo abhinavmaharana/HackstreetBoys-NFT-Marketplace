@@ -84,6 +84,21 @@ To Install this project.
 
 ### Installation
 
+To work on this project, you have to install the few packages.
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/abhinavmaharana/HackstreetBoys-NFT-Marketplace.git
+   ```
+2. Install packages
+   ```sh
+   yarn install or yarn or npm install
+   ```
+3. Start The Web app
+   ```js
+   yarn start or npm start
+   ```
+
 To start using sanity.
 
 1. Open the studio file in the project
@@ -98,22 +113,6 @@ To start using sanity.
    ```js
    sanity start
    ```
-   
-To work on this project, you have to install the few packages.
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-2. Install packages
-   ```sh
-   yarn install or yarn or npm install
-   ```
-3. Start The Web app
-   ```js
-   yarn start or npm start
-   ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
